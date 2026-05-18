@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maps-toolkit"
+version = "0.1.0"
+description = "A three-stage antimicrobial stewardship pipeline: preprocess, reconstruct, analyze."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Martijn Siepel", email = "m.siepel@amsterdamumc.nl" }]
+keywords = ["antimicrobial-stewardship", "atmt", "clinical", "healthcare", "pipeline"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "pandas",
+    "pyyaml",
+    "openpyxl",
+    "tqdm",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "build", "twine"]
+
+[project.scripts]
+maps-preprocess = "maps_toolkit.preprocess:cli"
+maps-reconstruct = "maps_toolkit.reconstruct:cli"
+maps-analyze = "maps_toolkit.analyze:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["maps_toolkit*"]
