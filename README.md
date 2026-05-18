@@ -20,7 +20,15 @@ the command line.
 ## Installation
 
 ```bash
-pip install maps-toolkit
+pip install git+https://github.com/martijnsiepel01/maps_toolkit_pkg.git
+```
+
+For development:
+
+```bash
+git clone https://github.com/martijnsiepel01/maps_toolkit_pkg.git
+cd maps_toolkit_pkg
+pip install -e .[dev]
 ```
 
 Requires Python 3.9 or newer.
