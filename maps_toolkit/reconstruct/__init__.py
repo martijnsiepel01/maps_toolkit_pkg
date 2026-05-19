@@ -11,6 +11,6 @@ def reconstruct(config_path: str) -> None:
 
 def cli() -> None:
     parser = argparse.ArgumentParser(description="maps-toolkit reconstruct stage")
-    parser.add_argument("--config", required=True, help="Path to reconstruct YAML config")
+    parser.add_argument("-c", "--config", required=True, help="Path to reconstruct YAML config")
     args = parser.parse_args()
     reconstruct(args.config)
