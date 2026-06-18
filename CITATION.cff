@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the MAPS paper."
+title: "maps-toolkit — antimicrobial stewardship pipeline"
+version: "0.1.1"
+authors:
+  - family-names: "Siepel"
+    given-names: "Martijn"
+    affiliation: "Amsterdam UMC"
+    email: "m.siepel@amsterdamumc.nl"
+type: software
+license: MIT
+repository-code: "https://github.com/martijnsiepel01/maps_toolkit_pkg"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Siepel"
+      given-names: "Martijn"
+  title: "TODO: paper title once published"
+  journal: "TODO: venue"
+  year: 2026
+  doi: "TODO: DOI once published"
