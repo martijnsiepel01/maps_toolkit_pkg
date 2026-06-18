@@ -1,5 +1,7 @@
 # maps-toolkit
 
+[![DOI](https://zenodo.org/badge/1242525142.svg)](https://doi.org/10.5281/zenodo.20748645)
+
 A three-stage pipeline for analysing hospital antimicrobial treatment data.
 
 The toolkit converts raw electronic-health-record exports into a nested,
