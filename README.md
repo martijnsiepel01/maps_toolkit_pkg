@@ -82,6 +82,21 @@ custom steps, custom plugins, and an end-to-end Jupyter notebook — lives
 in the companion repository:
 <https://github.com/martijnsiepel01/MAPS_toolkit>.
 
+## Citation
+
+This package implements the MAPS method described in the paper. If you
+use it, please cite:
+
+```bibtex
+@article{siepel_maps_2026,
+  title   = {TODO: paper title once published},
+  author  = {Siepel, Martijn},
+  journal = {TODO: venue},
+  year    = {2026},
+  doi     = {TODO: DOI once published}
+}
+```
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
