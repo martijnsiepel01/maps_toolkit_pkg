@@ -77,9 +77,10 @@ plugin:
 
 ## Reference implementation
 
-A complete worked example using AUMC (Amsterdam UMC) data — including
-real configs, custom steps, custom plugins, and an end-to-end Jupyter
-notebook — lives alongside this package in `maps_toolkit_impl/`.
+A complete worked example on MIMIC-IV data — including real configs,
+custom steps, custom plugins, and an end-to-end Jupyter notebook — lives
+in the companion repository:
+<https://github.com/martijnsiepel01/MAPS_toolkit>.
 
 ## License
 
